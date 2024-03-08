@@ -8,11 +8,11 @@ def process_and_print(input_string):
 
     # Convert strings to integers and filter out negative values
     list.sort(reverse = True)
-    string = ""
-    for i in range(len(list)):
-        string += str(list[i]) + " "
+    # string = ""
+    # for i in range(len(list)):
+    # //    string += str(list[i])-4 + " "
                    
-    print(string)
+    print(list)
 
     # Sort integers in reverse order
   
