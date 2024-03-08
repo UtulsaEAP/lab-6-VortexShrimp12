@@ -1,6 +1,5 @@
 def process_user_contacts(user_input):
     split = user_input
-    print(split)
 
     # Put word pairs into a dictionaryH
     # Get contact name from input, output contact's phone number
@@ -9,7 +8,7 @@ def process_user_contacts(user_input):
         if(split[i] == contact_name):
             break
     
-    if(len(split[i]) - len[contact_name] <= 0):
+    if(len(split[i]) - len(contact_name) <= 0):
         print(split[i+1])
     else:
         print(split[len[contact_name],len[split[i]]])
