@@ -12,7 +12,7 @@ def process_and_print(input_string):
     for i in range(len(list)):
         string += str(list[i]) + " "
                    
-    print(string)
+    print(string + "\n")
 
     # Sort integers in reverse order
   
