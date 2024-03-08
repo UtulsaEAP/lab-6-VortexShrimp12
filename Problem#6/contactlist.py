@@ -9,10 +9,10 @@ def process_user_contacts(user_input):
         if(split[i] == contact_name):
             break
     
-    if(split[i] - split[i][len(split[i])::1] <= 0):
-        print(split[len[contact_name],len[split[i]]])
-    else:
+    if(len(split[i]) - len[contact_name] <= 0):
         print(split[i+1])
+    else:
+        print(split[len[contact_name],len[split[i]]])
 
     
    
