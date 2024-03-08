@@ -14,7 +14,7 @@ def process_user_contacts(user_input):
 if __name__ == '__main__':
     # Get input for word pairs
     user_input = input("Enter word pairs (name, phone number): ")
-    
+    split = user_input.split()
 
     # Call the function to process user contacts
-    process_user_contacts(user_input.split())
+    process_user_contacts(split)
