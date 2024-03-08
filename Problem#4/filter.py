@@ -2,9 +2,9 @@ def process_and_print(input_string):
       # Split into separate strings
     split = input_string.split()
     list = []
-    for i in range(len(split)):
-        if(float(split[i]) < 0):
-            list.append(int(split[i]))
+    for i in split:
+        if((int[i]) < 0):
+            list.append(int[i])
 
     # Convert strings to integers and filter out negative values
     list.sort(reverse = True)
@@ -12,7 +12,7 @@ def process_and_print(input_string):
     # for i in range(len(list)):
     # //    string += str(list[i])-4 + " "
                    
-    print(list)
+    print(list, end=' ')
 
     # Sort integers in reverse order
   
