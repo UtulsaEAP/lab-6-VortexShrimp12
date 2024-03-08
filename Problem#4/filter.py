@@ -3,16 +3,16 @@ def process_and_print(input_string):
     split = input_string.split()
     list = []
     for i in split:
-        if((int[i]) < 0):
-            list.append(int[i])
+        if((int(i)) < 0):
+            list.append(int(i))
 
     # Convert strings to integers and filter out negative values
     list.sort(reverse = True)
     # string = ""
     # for i in range(len(list)):
     # //    string += str(list[i])-4 + " "
-                   
-    print(list, end=' ')
+    for values in list:
+        print(values, end=' ')
 
     # Sort integers in reverse order
   
